@@ -2,6 +2,8 @@
 스파르타 유니티 개인과제
 ![화면 캡처 2025-05-07 123346](https://github.com/user-attachments/assets/11711b3a-6354-4667-a74c-ff19e43a85c2)
 
+Space누르면 케릭터가 점프
+
 npc 근처가면 서로 대화는 안되지만 hi player이 뜹니다
 
 위에 용암 흐르는곳가서 F키를 눌르면 FlappyPlane 게임으로 넘어갑니다
