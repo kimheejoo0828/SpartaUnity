@@ -288,6 +288,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109737017}
   m_CullTransparentMesh: 1
+--- !u!1 &225260930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225260932}
+  - component: {fileID: 225260931}
+  m_Layer: 0
+  m_Name: ScoreHider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &225260931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225260930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d895bbcff498c6d438920ca5a80a4a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
+--- !u!4 &225260932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225260930}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.25, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &478523859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4573,7 +4618,7 @@ MonoBehaviour:
   minigameSceneName: FlappyPlaneScene
   mainSceneName: MainScene
   interactionPopup: {fileID: 0}
-  bestscoreText: {fileID: 0}
+  bestscoreText: {fileID: 4208542512204686812, guid: 5fe40d9ff08b4924a8b1061fde0277d1, type: 3}
 --- !u!1 &2139600867
 GameObject:
   m_ObjectHideFlags: 0
@@ -4678,3 +4723,4 @@ SceneRoots:
   - {fileID: 2139600870}
   - {fileID: 1353675025}
   - {fileID: 1977247804}
+  - {fileID: 225260932}

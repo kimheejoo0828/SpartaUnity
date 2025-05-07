@@ -46,7 +46,7 @@ public class MiniGameTrigger : MonoBehaviour
                 interactionPopup.SetActive(false);
         }
     }
-
+    /*
     void SaveBestScore(int score)
     {
         int bestScore = PlayerPrefs.GetInt("BestScore", 0);
@@ -60,4 +60,5 @@ public class MiniGameTrigger : MonoBehaviour
             Debug.Log("현재 최고 점수 유지: " + bestScore);
         }
     }
+    */
 }
